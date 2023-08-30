@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Follow/Unfollow Simulation</title>
+</head>
+<body>
+
+<div class="user-count">
+    <h1>All: <span id="totalUserCount">0</span></h1>
+</div>     
+<div class="container">
+  <div class="user-info">
+    <img id="userAvatar" src="pro.png" alt="User Avatar">
+    <h2 id="userName">Dull</h2>
+     <div class="btn-container">
+        <button id="followBtn" class="btn">Follow</button>
+        <button id="unfollowBtn" class="btn" disabled>Unfollow</button>
+      </div>
+    <img id="userAvatar" src="pro.png" alt="User Avatar">
+    <h2 id="userName">Rere</h2>
+     <div class="btn-container">
+        <button id="followBtn" class="btn">Follow</button>
+        <button id="unfollowBtn" class="btn" disabled>Unfollow</button>
+      </div>
+    <img id="userAvatar" src="pro.png" alt="User Avatar">
+    <h2 id="userName">Koni</h2>
+     <div class="btn-container">
+        <button id="followBtn" class="btn">Follow</button>
+        <button id="unfollowBtn" class="btn" disabled>Unfollow</button>
+      </div>  
+  </div>
+  <div class="followed-users">
+    <h3>My Friends :</h3>
+    <ul id="followedList"></ul>
+  </div>
+</div>
+
+<script src="mission2.js"></script>
+</body>
+</html>
