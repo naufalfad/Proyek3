@@ -1,0 +1,8 @@
+1. Form Input Data Barang		Selesai
+2. Form Update Data Barang		Selesai
+3. View Data Barang			Selesai
+4. Delete Data Barang			Selesai
+5. View Data Kasir			Belum Selesai
+6. View Data Tenan			Belum Selesai
+7. Form Input Transaksi Penjualan	Belum Selesai
+8. View Struk Belanja			Belum Selesai
